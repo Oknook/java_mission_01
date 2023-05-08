@@ -1,0 +1,43 @@
+html,
+body {
+  margin: 0;
+}
+
+nav > a + a:before {
+  content: "|";
+  margin-right: 0.3em;
+}
+
+nav > a + a {
+  margin-left: 0.31em;
+}
+
+#gps {
+  display: flex;
+  align-items: center;
+}
+
+button {
+  margin-left: 5px;
+}
+
+table {
+  display: inline-block;
+  width: 100%;
+  overflow-x: auto;
+}
+
+th {
+  color: white;
+  background-color: green;
+  padding: 1em;
+  min-width: 100px;
+}
+
+td {
+  text-align: center;
+}
+
+tr:nth-child(even) {
+  background-color: #e0e0e0;
+}
